@@ -2,4 +2,8 @@
 alwaysApply: true
 ---
 
+커밋 메시지는 반드시 한국어로 작성한다 (영어 금지)
+어떤 파일이 변경되었든 커밋 메시지는 예외 없이 항상 한국어로 작성한다
+package-lock.json, yarn.lock, pnpm-lock.yaml 등 lock 파일만 변경된 경우에도 한국어로 작성한다.
 Always respond in Korean. Write commit message in Korean.
+제목은 50자 이내, 명령형으로 작성 (예: "로그인 기능 추가")
