@@ -1,6 +1,7 @@
 import { Outlet, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
+import Gnb from '#/components/gnb'
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -9,6 +10,7 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <>
+      <Gnb />
       <main>
         <Outlet />
       </main>
